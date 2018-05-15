@@ -132,6 +132,7 @@ public class Mainframe extends JFrame{
                         public void actionPerformed(ActionEvent e) {
                             opEq();
                             jlb.setText(Double.toString(sum));
+                            sum = 0.0 ;
                             v1 = 0.0 ;
                             str = "" ;
                             op = -1 ;
