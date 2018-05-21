@@ -150,6 +150,7 @@ public class Mainframe extends JFrame{
                             jlb.setText(str);
                         }
                     });
+                    break;
             }
         }
     }
